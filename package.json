@@ -1,0 +1,18 @@
+{
+  "name": "ai-chat-app",
+  "version": "1.0.0",
+  "description": "A ChatGPT-style AI chat website powered by Alibaba Cloud (DashScope) API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
